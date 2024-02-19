@@ -1,0 +1,84 @@
+ body {
+     margin: 0;
+     padding: 0;
+ }
+
+ /* HEADER */
+ header {
+     background-image: url(../img/pattern.png);
+     background-size: 30%;
+     background-color: rgb(20, 173, 224);
+     height: 15vh;
+ }
+
+ header>#logo-head {
+     height: 15vh;
+     width: 30vh;
+     margin-top: 1.5%;
+ }
+
+ /* /HEADER */
+
+ /* MAIN */
+ main {
+     margin: 8px;
+ }
+
+ h1 {
+     font-size: 3rem;
+ }
+
+ .journal-head > h1, p, h6, #date-subtitle {
+     margin: 5px;
+ }
+
+ .journal-head > p, #date-subtitle {
+     color: gray;
+ }
+
+ .journal-head > p > span {
+     color: rgb(20, 173, 224);
+ }
+.journal-description{
+    margin-top: 25px;
+}
+
+.journal-description > p > span {
+    background-color: yellow;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 30px 0 30px 0;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.short-column{
+    width: 20%;
+}
+
+#title-table {
+    color: #fff;
+    background-color: rgb(20, 173, 224);
+}
+ /* /MAIN */
+
+ /* FOOTER */
+
+.footer-container{
+    width: 20%;
+}
+h4 {
+    color: grey;
+    margin-bottom: 5px;
+}
+
+ /* /FOOTER */
