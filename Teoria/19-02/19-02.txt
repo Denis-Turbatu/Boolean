@@ -36,10 +36,10 @@ INDEX.HTML
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 NB: Creare sempre una cartella per i stili e fare --> ./css/style.css per linkare il file correttamente
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-../ --> esce dalla cartella quindi ../img/cat.png --> 
-                                            1-esce dalla cartella css
-                                            2-entra nella cartella img
-                                            3-cerca l'immagine desidareta nella cartella quindi cat.png
+../ --> esce dalla cartella quindi ../img/cat.png --> "path relativo"
+                                                1-esce dalla cartella css
+                                                2-entra nella cartella img
+                                                3-cerca l'immagine desidareta nella cartella quindi cat.png
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 dimensioni in px --> dimensioni assolute
 dimensioni in percentuale --> dimensioni relative
