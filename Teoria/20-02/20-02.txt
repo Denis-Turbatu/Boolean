@@ -1,0 +1,52 @@
+MODUS OPERANDI
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Creare Repo su GitHub e clonare la repo su VScode
+Creare i file e le cartelle necessarie
+Applicare le regole di reset css
+Suddividere il sito in macro aree (Header, Main > Article > Section, Footer...)
+Partire dall'alto quindi dal header e fare tutto l'html e poi il css 
+Accendere l'inspector e analizzare l'oggetto che sis ta modificando
+Finita la prima parte seguiamo il flusso del sito facendo parte per parte
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+SUGGERIMENTI dal esercizio 19-02
+
+-Per le classi dare nomi indicativi --> Header: header-bg, header-logo
+-Suddividere il file CSS in sezione per capire cosa modifica cosa
+-Dare il width all'immagine del background segna in automatico anche un height
+-Uno shorthand cancella gli altri attributi --> background: #fff; cancella background-size, background-color, background-image..., solo se viene messo al  fine in quant il linguaggio è imperativo
+Impostare con color dall'inspector un colore dopo possiamo usare il collor-picker integrato
+-Quando si vuole fare delle modifiche che non sono sicure, falle in inspector
+-Lavora in larghezza per il 90% delle volte perche l'altezza si auto adatta per rispettare il ratio dell'immagine
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+> BACKGROUND
+background-color
+background-image
+background-position
+background-size
+background-repeat
+background-attachment
+
+> BORDER
+border
+border-radius
+border: top-right-bottom-left
+border-collapse
+object-fit
+
+> PADDING
+padding: top-right-bottom-left
+
+> MARGIN
+margin: top-right-bottom-left
+margin: auto
+
+> DISPLAY
+inline
+block
+inline-block
+none
+
+> ALIGN
+vertical-align: middle (serve per allineare due elementi verticalemente tra di loro,quindi se ul logo è piu in basso e una scritta piu in alto, va ad allinere le due cose, allineare due fratelli e non figlio al padre, la regola va assegnata agli oggetti da allineare non al padre)
+

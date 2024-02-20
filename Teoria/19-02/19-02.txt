@@ -36,7 +36,7 @@ INDEX.HTML
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 NB: Creare sempre una cartella per i stili e fare --> ./css/style.css per linkare il file correttamente
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-../ --> esce dalla cartella quindi ../img/cat.png --> "path relativo"
+../ --> esce dalla cartella quindi ../img/cat.png --> "path relativo", assoluto quando inizia con / quindi parte per gli altri dal disco C:
                                                 1-esce dalla cartella css
                                                 2-entra nella cartella img
                                                 3-cerca l'immagine desidareta nella cartella quindi cat.png
