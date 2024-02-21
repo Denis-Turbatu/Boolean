@@ -49,4 +49,5 @@ none
 
 > ALIGN
 vertical-align: middle (serve per allineare due elementi verticalemente tra di loro,quindi se ul logo è piu in basso e una scritta piu in alto, va ad allinere le due cose, allineare due fratelli e non figlio al padre, la regola va assegnata agli oggetti da allineare non al padre)
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Google serch operator
