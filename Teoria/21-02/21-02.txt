@@ -1,0 +1,49 @@
+HEADER
+
+Header è un contenitore, se metti 'text-align: center;' essendo che l'immagine è contata come test anche, si allinea centralmente in maniera orizzontale, per la verticalità usi 'line-height' uguale all'altezza dell'header oppure un pò di padding
+
+per allineare le cose nell'header per essere tutto sulla stessa linea usi 'vertical-align: middle;'
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+BODY
+
+Body è più corretto se contiene il font-family
+
+Meglio evitare il 'height' durante gli esercizi usa di piu padding per spaziare in maniera omogenea tutte le direzioni
+
+'text-align' evidentemente fa a centrare sia l'input che il button,
+in quanto gli elementi 'inline-block' sono contati come testo quindi sono soggetti al 'text-align' 
+
+Nell'annidamento di tag simili prova a commentare le sezioni, nell'esercizio avresti potuto commentare la lista grande inizio/fine e commentare inizio/fine delle liste interne
+
+Avresti potuto usare il padding per la lista grande al posto del div centrato
+
+la stessa cosa per gli oggetti della lista, allineavi i 3 span e aggiungevi del padding per far crescere il box degli oggetti, sempre meglio cosi che aumentare il 'line-height'
+
+per i check e i cross conveniva fare una classe cerchio generale e poi una seconda classe check/cross per cambiare il simbolo e il colore ma effettivamente è sempre un picolo cerchio che deve essere uguale per tutti gli oggetti
+
+INVECE per centrare i simboli avrei potuto fare un quadrato, aggiungere il border-radius corretto per il cerchio e fare 'line-height' alle stesse misure del quadrato
+
+fare le targhette inline-block in quanto inline e basta non è soggetto alle altezze e larghezze 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FLEXBOX
+
+Padre flexbox --> flex container
+figli diretti flexbox --> flex items
+
+
+flex no posiziona ma distribuisce spazio tra gli elementi
+
+display: flex --> cambiamento di natura  |
+justify-content --> main axis            |   
+align-items --> second axis              |  --> attributi del flex-container
+flex-wrap --> quando gli elementi non    |  -->
+              entrano nel contenitore    |
+              li manda a capo            |
+
+flex-grow --> applica un coefficiente che in base al numero prende in maniera frazionale lo spazio libero del container  | --> attributo del flex-item
+ 
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
