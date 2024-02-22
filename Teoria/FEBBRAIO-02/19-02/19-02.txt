@@ -1,0 +1,48 @@
+git add .                           --> mette i file nel staging
+git commit -m "add: project init"   --> effettuare il commit
+git push                            --> push
+git restore --staged .              --> togliere i file salvati dalla fase di staging
+git restore --staged :/             --> ":/" sta per rimuovi tutti i file dall'area di stage
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+ESERCIZIO 16-02
+1) nelle immagini iniziare con ./
+2) nei alt delle immagini attribuire nomi piu coerenti
+3) annidare le immagini in un Div
+4) nei commenti non numerari i commenti ma dare un nome es: section-uno, section-due a expenses-section, landscape-section...e cosi via
+5) feat e add come commenti per il commit sono uguali, gli sviluppatori usano feat per convenzione 
+6) ul>(li>strong)*2 --> crea un lista non ordinata con due li che contengono strong per 2 volte
+7) utilizzare i commenti piu come blocco: main, header, footer, section, span, div...
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+<h1 style"color:#fff">Ciao</h1>  --> Style inline (NON UTILIZZARE)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+<head>
+tag {
+    color: #fff;
+}                                --> Style nel file
+</head>
+<body>
+    <h1>Ciao</h1>
+</body>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+STYLE.CSS
+tag {
+    color: #fff;
+}                                --> Style esterno
+
+INDEX.HTML
+<body>
+    <h1>Ciao</h1>
+</body>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+NB: Creare sempre una cartella per i stili e fare --> ./css/style.css per linkare il file correttamente
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+../ --> esce dalla cartella quindi ../img/cat.png --> "path relativo", assoluto quando inizia con / quindi parte per gli altri dal disco C:
+                                                1-esce dalla cartella css
+                                                2-entra nella cartella img
+                                                3-cerca l'immagine desidareta nella cartella quindi cat.png
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+dimensioni in px --> dimensioni assolute
+dimensioni in percentuale --> dimensioni relative
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+img è influenzato da text-align: perche l'immagine ha un alt che è un testo quindi può essere contato come testo
+-----------------------------------------------------------------------------------------------------------------------------------------------------------

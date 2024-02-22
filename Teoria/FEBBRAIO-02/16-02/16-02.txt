@@ -1,0 +1,65 @@
+https://www.conventionalcommits.org/en/v1.0.0/
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+/*
+Revert no edit -> serve a camcellare l'ultimo commit
+Revert con edit -> serve a camcellare l'ultimo commit con possibilità di editarre il commit
+
+NB: Buona pratica effettuare commit su commit, magari gli errori servono per capire meglio il codice mentre,
+    se si ha scelto una strada sbagliata quindi tutto sbagliato, meglio eseguire il revert
+*/
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+/*
+.gitignore è un file che nega le possibili modifiche (es: se abbiamo un file che non vogliamo commitare, mettiamo il nome del file nel .gitignore e pushiamo .gitignore, cosi il file voluto non verrà commitato e ne pushato)
+*/
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+/*
+<!DOCTYPE html> -> Specificazione che il file è HTML
+<html lang="en"> 
+<head> -> Pensieri, non si vede
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-INTRO</title>
+</head>
+<body> -> Corpo, si vede
+    
+</body>
+</html>
+*/
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+/*
+Tag di titoli:
+> H1 (Solo uno, per questioni SEO)
+> H2
+> H3
+> H4
+> H5
+> H6
+*/
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+/*
+Tag piu utili:
+> p
+> ul
+> ol
+> strong(meglio 'strong' a differenza di 'b',perche strong indica l'importanza del testo come semantica mentre 'b'cambia solo l'aspetto)
+> em
+> hr
+*/
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+/*
+Tag di blocco:
+> prendono tutta la riga
+
+Tag inline:
+> pendono solo lo spazio necessario per il contenuto
+
+Tag ne inline ne block:
+> hr, br, ...  (tag self closing)
+*/
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+/*
+Tag contenitori:
+> Div, contenitore senza semantica
+> Section, contenitore con semantica
+*/
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
