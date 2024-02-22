@@ -1,6 +1,6 @@
-PWD c:\Users\denis\Desktop\Boolean\Teoria\22-02\latex
+PWD c:\Users\denis\Desktop\Boolean\Teoria\FEBBRAIO-02\22-02\latex
 INPUT C:\Users\denis\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\denis\Desktop\Boolean\Teoria\22-02\latex\22-02.tex
+INPUT c:\Users\denis\Desktop\Boolean\Teoria\FEBBRAIO-02\22-02\latex\22-02.tex
 OUTPUT 22-02.log
 INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -15,6 +15,10 @@ INPUT 22-02.aux
 OUTPUT 22-02.aux
 INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
+INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 OUTPUT 22-02.pdf
 INPUT C:\Users\denis\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT 22-02.aux
@@ -22,3 +26,7 @@ INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\denis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb

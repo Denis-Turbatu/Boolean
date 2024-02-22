@@ -13,6 +13,43 @@ Flex è un attributo che gestisce gli spazi tra i contenitori.
 \\[1\baselineskip]
 Flex è possibile attribuirlo a due cose, il un contenitore padre che dovrà avere 'display: flex', chiamato flex container
 mentre i figli contenuti dal flex container sono chiamati flex items. Essi possono non avere attributi. 
+\\[2\baselineskip]
+\subsection*{Gap}
+La proprietà 'gap' aggiunge uno spazio negli flex items e puo assumere due proprietà 'row' o 'column', un po come margin.
+\\[1\baselineskip]
+La proprietà 'gap' è un po speciale in quanto aggiunge spazio sia a destra che sinistra quindi:
+
+\title{Margin}
+\begin{verbatim}
+width: calc(100% / 3 - 10px)
+\end{verbatim}
+
+\title{Gap}
+\begin{verbatim}
+width: calc(100% / 3 - 20 / 3)
+\end{verbatim}
+\textit{Es: come viene effettuato il codice per l'assegnazione dello spazio con le diverse formule}
+\\[2\baselineskip]
+
+\subsection*{Flex-shrink}
+
+Flex-shrink è l'opposto di 'flex-grow', se 'flex-grow' prendeva lo spazio libero e lo assegnava ai flex items, ora 'flex-shrink' toglie lo spazio dei flex items. Questa proprietà ha un coefficiente che più è alto piu un flex item sarà tassato nella sottrazione dello spazio.
+\\[2\baselineskip]
+
+\subsection*{Flex-basis}
+
+Flex-basis è la proprietà che assegna un misura che ogni flex item deve avere in direzione sull'asse principale.
+\\[2\baselineskip]
+
+\subsection*{Order}
+
+Order è la proprietà che assegna un numero a un flex item in base alla grandezza del numero il posizionamento di un flex itam cambia:
+\begin{verbatim}
+    -1 --> flex item assegnato prima di tutti
+    0 --> flex item nella sua posizione iniziale, coefficiente settato di base
+    1 --> flex item assegnato dopo di tutti
+    \end{verbatim}
+
 
 
 \end{document}
