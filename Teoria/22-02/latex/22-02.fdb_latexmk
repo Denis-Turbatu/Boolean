@@ -1,5 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1708591509.12869 "c:/Users/denis/Desktop/Boolean/Teoria/21-02/latex/main.tex" "main.pdf" "main" 1708591509.50399 0
+["pdflatex"] 1708592145.38379 "c:/Users/denis/Desktop/Boolean/Teoria/22-02/latex/22-02.tex" "22-02.pdf" "22-02" 1708592145.76353 0
+  "22-02.aux" 1708592145 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "22-02.tex" 1708592144 471 3b3cd87ea10764fc1be3b7f4d3e1f1ac ""
   "C:/Users/denis/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1708545269 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/denis/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1708545279 24230114 b533d2b317293e672906b9db69cf0cf1 ""
   "C:/Users/denis/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -9,11 +11,9 @@
   "C:/Users/denis/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1705273579 20144 147463a6a579f4597269ef9565205cfe ""
   "C:/Users/denis/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1705273578 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
   "C:/Users/denis/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1704400941 30006 57b07afb710ee2f649c65cfbafda39c1 ""
-  "c:/Users/denis/Desktop/Boolean/Teoria/21-02/latex/main.tex" 1708591507 2918 4c5d2dc4349312dc32821bc38fe55866 ""
-  "main.aux" 1708591509 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "main.tex" 1708591507 2918 4c5d2dc4349312dc32821bc38fe55866 ""
+  "c:/Users/denis/Desktop/Boolean/Teoria/22-02/latex/22-02.tex" 1708592144 471 3b3cd87ea10764fc1be3b7f4d3e1f1ac ""
   (generated)
-  "main.aux"
-  "main.log"
-  "main.pdf"
+  "22-02.aux"
+  "22-02.log"
+  "22-02.pdf"
   (rewritten before read)
