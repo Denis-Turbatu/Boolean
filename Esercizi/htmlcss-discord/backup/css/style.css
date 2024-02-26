@@ -1,0 +1,310 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* COMMON */
+
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.button,
+.dark-btn {
+    padding: 12px 15px;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+
+.button {
+    color: black;
+    background-color: #fff;
+}
+
+.bot-btn{
+    background-color: #7289da;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.dark-btn {
+    padding: 12px 15px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #222;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.small-object > section > h3 {
+    padding-bottom: 15px;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    background-color: #255ee9;
+}
+
+.header-container{
+    display: flex;
+    width: 70%;
+}
+
+.short-col {
+    width: 20%;
+}
+
+.long-col {
+    flex-grow: 1;
+}
+
+.long-col,
+.short-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+/* MAIN */
+
+.hero-container{
+    background: url(../img/jumbo.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 180px 0;
+}
+
+.hero {
+    color: #fff;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h1, .hero p {
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.hero > h1{
+    font-size: 3rem;
+}
+
+.hero > p {
+    text-align: center;
+    width: 57%;
+}
+
+.btn-container{
+    padding: 25px 0;
+}
+
+.object-section {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 130px 0;
+}
+
+.object-container {
+    width: 70%;
+    display: flex;
+}
+
+.big-object, .small-object{
+    display: flex;
+    justify-content: center;
+}
+
+.big-object {
+    width: 70%;
+    height: 100%;
+}
+
+.small-object {
+    width: 30%;
+    flex-direction: column;
+}
+
+.opposite{
+    background-color: #f6f6f6;
+}
+
+.inverted {
+    flex-direction: row-reverse;
+}
+
+.final-section {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    padding: 130px 0;
+}
+
+.bot-container {
+    width: 70%;
+}
+
+.bot-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.bot-section h2, .bot-section p{
+    text-align: center;
+}
+
+.bot-section > p {
+    padding-top: 20px;
+    line-height: 22px;
+}
+
+.bot-cont-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.bot-cont-flex img{
+    margin-top: 0px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #222;
+}
+
+.footer-section{
+    /* background-color: #222; */
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+.info-object h3 {
+    color: #7289da;
+    padding-top: 30px;
+}
+
+footer hr{
+    border: solid 1px #7289da;
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+.info-anchors{
+    width: 70%;
+    display: flex;
+    padding-top: 70px;
+}
+
+.info-object{
+    width: calc(100% / 6);
+}
+
+.info-object ul {
+    list-style-type: none;
+}
+
+.info-object ul li {
+    margin: 30px 15px;
+    color: #fff;
+}
+
+.large-info{
+    width: calc(100% / 6 * 2);
+}
+
+.footer-line{
+    display: flex;
+    /* background-color: #222; */
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.info-object ul .title-list{
+    color: #7289da;
+}
+
+.footer-object>img {
+    height: 100%;
+}
+
+.footer-object > img, .footer-object > a{
+    vertical-align: middle;
+}
+
+.large-info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.language {
+    display: flex;
+    color: #fff;
+    gap: 10px;
+    height: 1rem;
+}
+
+.arrow-icon{
+    height: 0.5rem;
+    margin: 5px 0;
+}
+
+.icons{
+    text-align: left;
+}
+
+i{
+    color: #fff;
+    padding-right: 20px;
+}
+
+.wave{
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: invert(1) saturate(1) brightness(0.97);
+    height: 100px;
+}
+
+.reverse {
+    filter: invert(1) saturate(1) brightness(0.97);
+    rotate: 180deg;
+}

@@ -112,9 +112,9 @@ header {
 .hero-container{
     background: url(../img/jumbo.png);
     padding: 180px 0;
+    background-position: 0px;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .hero-section-margin-auto {
@@ -141,7 +141,6 @@ header {
 
 .container-left-object {
     flex-grow: 1;
-    display: flex;
 }
 
 .container-right-object {
@@ -221,10 +220,6 @@ footer hr {
     display: flex;
     padding: 5px 0;
     justify-content: space-between;
-}
-
-.footer-header-bottom{
-    padding-bottom: 20px;
 }
 
 .language {
