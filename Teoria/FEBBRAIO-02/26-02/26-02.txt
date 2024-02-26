@@ -1,0 +1,14 @@
+CORREZIONE
+> Le liste hanno elementi uguali, se un elemento è piu importante allora non fa parte della lista
+> Non dare come background-image ad un elemento, attributi in % durante il rimpicciolimento lo sfondo si ristringe e crea un effetto strano
+> Creare delle classi utility (4/5) per margini o padding e uasa quelle senza ripetere attributi inutili o diversi ogni volta da modificare
+--------------------------------------------------------------------------------------------------------------------------------------------------
+LEZIONE
+ -- POSITION -- 
+
+ > static   --> rimane nel flusso del documento (default)
+ > absolute --> tolto dal flusso del documento e soggetto a top,right,bottom,left --> modificabile con 'z-index'
+ > relative --> rimane nel flusso del contenuto e soggetto a top,right,bottom,left --> modificabile con 'z-index'
+ > fixed    --> prende come padre quindi come punto di riferimento il viewport e soggetto a top,right,bottom,left
+
+> Se si usa position bisogna assegnare assolutamente due attributi uno orizzontale e uno verticale
