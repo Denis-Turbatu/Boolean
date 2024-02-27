@@ -1,0 +1,25 @@
+> z-index funziona quando le immagini hanno position diverso da static
+> .card:hover img {} --> corretto  / .card img:hover --> sbagliato
+    perche nella prima diciamo che quando siamo sulla carta, cambiamo l'immagine, mentre nella seconda ogni volta che ti muovi nella carta 
+    si aggiorna l'immagine creando L'effetto di sfarfaliamento
+> le immagini hanno due funzioni se sono solo per bellezza le metti come background se hanno un ruolo importante allora usiamo img
+--------------------------------------------------------------------------------------------------------------------------------------------------
+> VH e VW
+
+ViewHeight prende la lunghezza del viewport e lo imposta come pixel
+ViewWidth prende la larghezza del viewport e lo imposta come pixel
+Quindi non molto responsive
+
+> VW non usarlo perche con altri elementi aggiunge uno scrollbar orizzontale
+--------------------------------------------------------------------------------------------------------------------------------------------------
+TECNICA DI OVERLAY  
+
+> Impostare un'immagine con width: 100% e height: 100vh
+> Mettere un elemento come h2 e col position centrarlo oppure posizionarlo dove si vuole
+> Impostare un div con background width e height: 100%, position: absolute, gestir ela parte del z-index corettamente e il background-color RGBA con opacità di 0.5 crea un effetto di overlay al titolo 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+<a src="#roma"></a> --> ti riporta all'elemento con id "roma"
+e con "scroll-bahavior: smooth" crea un effetto di scorrimento pulito tra gli elementi
+--------------------------------------------------------------------------------------------------------------------------------------------------
+LE ALTEZZE SI USANO NELLE WEBAPP, i siti di solito si evita di impostare altezze mentre nelle webapp si usano per creare i layout
+--------------------------------------------------------------------------------------------------------------------------------------------------
