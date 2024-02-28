@@ -1,0 +1,33 @@
+CORREZIONE
+
+> Nelle webapp dobbimao sempre impostare il wrapper con width: 100% e height: 100vh
+> overflow-y: sempre su auto
+> Creare un layout prima di iniziare e provare quello
+> Le immagini hanno uno spazio piccolo perche sono inline block, deve dinvetare display block
+> Un main --> un div che contiene 2 div --> participant e participant-name
+> Impostare prima i macroblocchi dopo prvare con un solo esemplare e poi pensare a fare la parte in particolare
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+COLASSO MARGINI
+
+I margini verticali possono colassare se due elementi fratelli o padre/figlio stanno uno sopra l'altro
+Si evita applicando padding, un border o usare flex
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+OVERLAY CON PSEUDO ELEMENTI
+
+::before con ' content="before"; ' applicherà una scritta 'before' all'oggetto applicato --> inline
+::after con ' content="after"; ' applicherà una scritta 'after' all'oggetto applicato --> inline
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SELETTORI AVANZATI
+
+> input[type='email']{}
+> :hover, :active, :visited
+> ul li:first-child{}
+> ul li:last-child{}
+> ul li:nth-child(n){}
+
+
+
+
