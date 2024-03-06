@@ -1,0 +1,17 @@
+CORREZIONE DROPBOX
+
+> Non usare bottoni ma anchor tag per i classici bottoni "Inizia", "Vai a ..."
+> I bordi colorati dovevano stare sul bordo dell'header e non sottostante al link
+> Si può applicare il 'position:relative' al jumbo per poi mettere un top di 80px circa e l'immagine scendeva insieme alla section senza togliere l'elemento fuori da flusso del documento (absolute è forzato, usare in casi estremi e possibili)
+> Usare tag semantici (nelle card il titolo puo anche essere un div, ma i contenuti della carta sono un article)
+> Per i testi potresti usare 'text-indenxt: ...;' per indentare il testo nelle liste e staccarlo dalle icone
+> Le icone per le liste  potevi usare i pseudo-elementi ':before'
+> Assegnare nomi piu coerenti per i ' alt="" ' (es: jumbo --> chicken-wrap with salad)
+--------------------------------------------------------------------------------------------------------------------------------------------------
+MEDIA QUERY
+
+> non aggiunge nessuna specificità 
+> in base ai link del html i codici css vengono applicati
+> si parte dal desktop-first come viewport e poi si adatta con le media query il sito ai viewport più piccoli con vari break-point
+> dopo si parte dal mobile-first come viewport e poi si adatta con le media query il sito ai viewport più piccoli con vari break-point
+> 
