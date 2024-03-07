@@ -1,0 +1,10 @@
+RESPONSIVE
+
+> Per i testi conviene fare il testo responsive: clamp:(1.8rem, calc(3vw + .8rem), 3rem);
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+APPUNTI PER ESERCIZIO
+
+> Creare due media query per stabilire la scomparsa del hamburger e la comparsa della lista di anchor tag
+> Usare display block e none
+> 
