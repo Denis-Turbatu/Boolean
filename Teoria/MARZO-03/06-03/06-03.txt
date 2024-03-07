@@ -14,4 +14,3 @@ MEDIA QUERY
 > in base ai link del html i codici css vengono applicati
 > si parte dal desktop-first come viewport e poi si adatta con le media query il sito ai viewport più piccoli con vari break-point
 > dopo si parte dal mobile-first come viewport e poi si adatta con le media query il sito ai viewport più piccoli con vari break-point
-> 
