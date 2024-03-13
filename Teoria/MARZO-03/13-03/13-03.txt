@@ -1,0 +1,15 @@
+Griglia con COL
+
+> si basa sui 12esimi quindi la larghezza di un contenuto e di 12/12, se si vuole fare una griglia con due colonne, la  griglia in verticale
+  sarà suddivisa in una colonna da 6/12 e l'altra da 6/12 e cosi via
+
+> col-1, col-2 ... mentre per il responsive si può mettere la grandezza tra col e numero colonna: 
+  colonna medium --> col-md-1
+  colonna small --> col-sl-1
+  ...
+
+> container non modificare --> padding 
+  row non modificare --> margin 
+  colonne non modificare --> margin e padding
+
+>
