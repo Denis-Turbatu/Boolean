@@ -4,4 +4,9 @@
 > fare layout a  griglia con una classe row con all'interno dei div .col e dentro il contenuto della card
   row che contiene tutte le col, con le col applichiamo delle  classi per adattarele responsive con il width e poi in col metti il contenuto
 > col-12 = 100% col-md-6 = 50% col-lg-3 = 25%, si possono mettere tutte in una classe per rendere responsive (es: col-12 col-md-6 col-lg-3)
-> .row-cols-sm-1 --> in viewport sm applica una somla colonna 
+> .row-cols-sm-1 --> in viewport sm applica una sola colonna 
+
+CUSTOM
+> crei classe con 'ms-' prima
+> prendi la calsse  e la modifichi
+> non usare queste classi per la griglia
