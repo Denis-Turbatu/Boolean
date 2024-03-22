@@ -1,0 +1,84 @@
+/*** PER INSERIRE QUALCOSA DIRETTAMENTE NEL HTML ***\
+
+document.getElementById().innerHTML = ...
+document.writeln() = ...
+alert(...)
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 
+
+/*** DEGUB JS ***\
+
+console.log(...)
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+/*** VARIABILI ***\
+
+const ...
+let ...
+var ...(datato/legacy) --> soggetto a hoisting, ovvero usare una variabile prima che venga dichiarata, risultato --> undefined
+
+console.log(typeof ...) --> dice che tipo di variabile è
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+/*** STAMPARE ELEMENTI HTML ***\
+
+const newResult = "<span>" + myUsername + "</span>"
+
+document.getElementById('result').innerHTML = newResult
+
+/* risultato */
+
+<h1 id="result"><span>Denis</span></h1>
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+/*** STAMPARE ELEMENTI HTML CON TEMPLATE LITERAL ***\
+
+const newResult = `
+    <span>${myString1}</span>
+    <strong>${myString2}</strong>
+`;
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+/*** OPERATORI ***\
+
+const add = myNum1 + myNum2;
+console.log(add);
+
+const sub = myNum1 - myNum2;
+console.log(sub);
+
+const mul = myNum1 * myNum2;
+console.log(mul);
+
+const div = myNum1 / myNum2;
+console.log(div);
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+/*** INPUT ***\
+
+const user = prompt("Come ti chiami?"); //dal prompt esce sempre stringa
+console.log(user);
+alert('Ciao ${user}!');
+
+ESEMPIO
+
+let num1 = prompt(Dimmi numero1);
+console.log(num1, typeof num1); //10, string
+
+let num2 = prompt(Dimmi numero2);
+console.log(num2, typeof num2); //12, string
+
+console.log(parseInt(num1 + num2)); //trasforma le stringhe in numeri
+
+ESEMPIO 2
+
+let num = 1234;
+console.log(num, typeof num); //1234, number
+
+const numAsString = num.toString();
+console.log(num, typeof numAsString); //1234, string
