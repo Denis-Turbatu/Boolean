@@ -1,0 +1,50 @@
+CORREZIONE
+
+# Soluzione
+
+### Raccolta  dati
+
+    ...
+
+### Esecuzione logica
+
+    ...
+
+### Output
+
+    ...
+
+> Prima eseguire i vari if per poi fare anche i calcoli di sconto cosi che se la variabile sconta applicato cambia il risultato di sconto cambia in maniera dinamica
+
+------------------------------------------------------------------------------------------------------------
+
+divElem= document.querySelector(); --> seleziona l'elemento e lo mette nella variabile cosi possiam modificare le cose al suo interno
+
+------------------------------------------------------------------------------------------------------------
+
+const divElem = document.querySelector(".red:nth-of-type(2)");
+console.log(divElem, typeof divElem)
+
+divElem += " Ciaoo" ---> prende l'html all'interno di divElem e lo unisce a " Ciaooo" come se fosse console.log(divElem + " Ciaoo")
+
+------------------------------------------------------------------------------------------------------------
+
+divElem.className += " rounded";
+
+divElem.classList.remove();
+divElem.classList.add();
+
+------------------------------------------------------------------------------------------------------------
+
+divElem.style.color =  "blue";
+
+------------------------------------------------------------------------------------------------------------
+
+divElem.addEventListener(tipoEvento, che cosa deve succedere);
+divElem.addEventListener(click, function(){
+    console.log("click!");
+    divElem.classList.toggle("blue");
+});
+
+------------------------------------------------------------------------------------------------------------
+
