@@ -1,0 +1,28 @@
+const booleanClasses = [
+    ["Giuseppe", "Antonella", "Luca", "Matteo"],
+    ["Pippo", "Pluto", "Paperino"],
+    ["Andrea", "Mattia", "Christian", "Maria", "Martina"]
+];
+
+for(let i = 0; i < booleanClasses.length; i++){
+    console.log("Classe con indice", i);
+    const curClass = booleanClasses[i];
+
+    for(let j = 0; j < curClass.length; j++){
+        const curStud = curClass[j];
+        console.log(j, curStud);
+    }
+}
+
+----------------------------------------------------------------
+
+const listItems = document.querySelectorAll(.my-list li);
+
+for(let i = 0; i < listItems.length; i++){
+    const curItem = listItems;
+    console.log(curItem);
+}
+
+----------------------------------------------------------------
+
+metodi js da vedere
