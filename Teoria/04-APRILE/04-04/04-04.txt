@@ -1,0 +1,75 @@
+CORREZIONE + BONUS FORM
+
+const newItemInput = document.getElementById("new-item");
+
+document
+    .getElementById("shopping-form")
+    .addEventListener("submit", function (event) { 
+        event.preventDefault();
+        const newItem = newItemInput.value; 
+        shoppingItems.push(newItem); 
+        // console.log(shoppingItems); 
+        const itemElem = document.createElement("li"); 
+        itemElem.innerHTML = newItem; 
+        listElem.append(itemElem); 
+        newInputItem = "";
+});
+
+------------------------------------------------------------------------------------------------
+
+FUNZIONI
+
+//Dichiarazione
+function sayHello() {
+    alert("Hello");
+}
+
+//Invocazione
+sayHello();
+
+------------------------------------------------------------------------------------------------
+
+//Dichiarazione
+function sayHello(name) {
+    alert("Hello" + name);
+}
+
+//Invocazione
+sayHello("Denis");
+
+------------------------------------------------------------------------------------------------
+
+//Dichiarazione
+function sayHello(name) {
+    alert("Hello" + name);
+}
+
+//Invocazione
+const userName = prompt("COme ti chiami?");
+sayHello("userName");
+
+------------------------------------------------------------------------------------------------
+
+function twoSums(num1, num2){
+    const result = num1 + num2;
+    return result;
+}
+
+const sum = twoSums(10, 12);
+console.log(sum);
+
+------------------------------------------------------------------------------------------------
+
+/** 
+* Description: la funzione the genera un numero random compreso tra due estremi 
+* @param {number} min estremo inferiore 
+* @param {number} max estremo superiore 
+* @returns {number} it numero generato 
+*/ 
+function getRndlnteger(min, max) { 
+    const rndNumber = Math.floor(Math.random() * max - min + 1) + min; 
+    return rndNumber; 
+} 
+
+------------------------------------------------------------------------------------------------
+
