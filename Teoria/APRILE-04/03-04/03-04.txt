@@ -1,0 +1,58 @@
+CICLO WHILE
+
+while (condizione){
+    istruzioni...
+
+    istruzione per terminare il ciclo
+}
+
+------------------------------------------------------------
+
+let i = 0; //2 let isFound = false; 
+
+while (i < guests.length && !isFound) { 
+    const curGuest = guests[i];
+    console.log(curGuest); 
+    
+    if(curGuest =1= userName){ 
+            isFound = true; 
+        } 
+}
+
+if (isFound){ 
+    console.log("Puoi entrare"); 
+}else{
+    console.log("Non sei nella lista di invitati"); 
+} 
+
+------------------------------------------------------------------------------------------------------------------------
+
+CICLO DO-WHILE
+
+do{
+    istruzioni...
+
+}while(condizione)
+
+------------------------------------------------------------------------------------------------------------------------
+
+SWITCH
+
+userInput = prompt(...);
+
+switch(userInput){
+    case " ... ":
+        istruzioni
+        break;
+    
+    case " ... ":
+        istruzioni
+        break;
+    
+    case " ... ":
+        istruzioni
+        break;
+
+    default " ... ":
+        istruzioni
+}
