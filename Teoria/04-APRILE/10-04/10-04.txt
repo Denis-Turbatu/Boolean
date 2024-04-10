@@ -1,0 +1,30 @@
+TIMING FUNCTION
+setTimeout --> mette una pausa di N millisecondi
+
+> setTimeout(function, 2000) --> imposta un timeout di 2 secondi e svolge la funzione
+
+-------------------------------------------------------------------------------------------------------------------
+
+setIntervall --> mette una pausa di N millisecondi all'infinito
+
+> setIntervall(function, 2000) --> imposta un timeout di 2 secondi e svolge la funzione, infinitamente
+> clearIntervall(function) --> blocca setIntervall per ciclare infinitamente
+
+-------------------------------------------------------------------------------------------------------------------
+
+OPERATORE TERNARIO
+
+let sStr = (s <= 9) ? ("0" + s.toString()) : (s.toString());
+
+STESSA COSA DI:
+
+if(sStr <= 9){
+    sStr = "0" + s.toString();
+ }else{
+    sStr = s.toString();
+ } 
+
+ -------------------------------------------------------------------------------------------------------------------
+
+ let now = new Date(); data corrente
+ console.log=(now.getHours());
