@@ -28,3 +28,4 @@ if(sStr <= 9){
 
  let now = new Date(); data corrente
  console.log=(now.getHours());
+
