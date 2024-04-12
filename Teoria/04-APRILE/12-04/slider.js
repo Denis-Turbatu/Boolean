@@ -2,7 +2,7 @@
 //foreach
 
 imagArray.forEach((curImg) => {
-    const slider = querrySelector(".slider");
+    const slider = querySelector(".slider");
     const slideElem = `
         oggetto html
     `
