@@ -1,0 +1,29 @@
+this.animals.add(this.newAnimal)
+  array    aggiung. dentro newAnimal
+
+  es: 
+  newAnimal: {
+    type: "",
+    name: "",
+  },
+  animals:[
+    {
+        type: "gallina",
+        name: "rosita",
+    },
+    {
+        type: "cane",
+        name: "pluto",
+    }
+  ],
+  methods: {
+    addAnimal: function(){
+        const copyAnimal = {
+            type: this.newAnimal.type;
+            name: this.newAnimal.name;
+            this.animals.add({...this.newAnimal}) //usiamo spread perche copiano i dati
+            this.newAnimal.type = "";
+            this.newAnimal.name = "";
+        }
+    }
+  }

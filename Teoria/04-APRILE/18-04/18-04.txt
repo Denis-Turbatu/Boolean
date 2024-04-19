@@ -1,0 +1,38 @@
+<p :class="[color, rounded]"> {{greeting}} </p>
+
+--------------------------------------------------------------------------------------------
+
+HTML
+<p :class="[color ? 'color' : '', rounded ? 'rounded' : '']"> {{greeting}} </p>
+
+JAVASCRIPT
+rounded = false,
+color = false,
+
+roundedToggle{
+    this.rounded = !this.rounded;
+}
+
+colorToggle{
+    this.color = !this.color;
+}
+
+--------------------------------------------------------------------------------------------
+
+HTML
+<p :class="['color' : colorToggle, 'rounded' : roundedToggle]"> {{greeting}} </p>
+
+JAVASCRIPT
+rounded = false,
+color = false,
+
+roundedToggle{
+    this.rounded = !this.rounded;
+}
+
+colorToggle{
+    this.color = !this.color;
+}
+
+--------------------------------------------------------------------------------------------
+
