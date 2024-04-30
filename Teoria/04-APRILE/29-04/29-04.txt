@@ -1,0 +1,8 @@
+... is not a function -> potrebbe essere che usi 'this.' ma this punta al  genitore e quindi a Window, uns soluzione sarà usare arrow function
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+API
+
+axios.get("URI").then((response) => {
+    ..codice
+})

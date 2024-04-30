@@ -1,0 +1,2 @@
+Node.js è un traduttore per il codice che scriviamo, quindi da intrmediario tra noi che scriviamo codice al browser
+
